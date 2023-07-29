@@ -1,0 +1,207 @@
+    1  ls
+    2  cd ~
+    3  ls
+    4  mkdir -p ~/dc_workshop/data/untrimmed_fastq/
+    5  cd ~/dc_workshop/data/untrimmed_fastq
+    6  curl -O ftp://ftp.sra.ebi.ac.uk/vol1/fastq/SRR258/004/SRR2589044/SRR2589044_1.fastq.gz
+    7  curl -O ftp://ftp.sra.ebi.ac.uk/vol1/fastq/SRR258/004/SRR2589044/SRR2589044_2.fastq.gz
+    8  curl -O ftp://ftp.sra.ebi.ac.uk/vol1/fastq/SRR258/003/SRR2584863/SRR2584863_1.fastq.gz
+    9  curl -O ftp://ftp.sra.ebi.ac.uk/vol1/fastq/SRR258/003/SRR2584863/SRR2584863_2.fastq.gz
+   10  curl -O ftp://ftp.sra.ebi.ac.uk/vol1/fastq/SRR258/006/SRR2584866/SRR2584866_1.fastq.gz
+   11  curl -O ftp://ftp.sra.ebi.ac.uk/vol1/fastq/SRR258/006/SRR2584866/SRR2584866_2.fastq.gz
+   12  ls
+   13  cd ~
+   14  ls
+   15  cd docs
+   16  su user1
+   17  ls
+   18  cd root
+   19  ls
+   20  miniconda
+   21  conda init
+   22  sudo apt-get update
+   23  conda --version
+   24  ls
+   25  cd miniconda3
+   26  ls
+   27  cd etc
+   28  ls
+   29  cd ./
+   30  cd ~
+   31  ls
+   32  cd /
+   33  ls
+   34  /root/miniconda3
+   35  cd /root/miniconda3
+   36  ls
+   37  cd ~
+   38  source .bashrc
+   39  echo 'export PATH=/root/miniconda3:$PATH' >> ~/.bashrc
+   40  source .bashrc
+   41  conda --version
+   42  conda init
+   43  clear
+   44  sudo apt upgrade
+   45  wget https://repo.anaconda.com/miniconda/Miniconda3-latest-Linux-x86_64.sh
+   46  conda3
+   47  bash Miniconda3-latest-Linux-x86_64.sh
+   48  conda config --set auto_activate_base false
+   49  ls
+   50  rm miniconda3
+   51  rm -r miniconda3
+   52  ls
+   53  bash Miniconda3-latest-Linux-x86_64.sh
+   54  ls
+   55  rm -r miniconda3
+   56  bash Miniconda3-latest-Linux-x86_64.sh
+   57  eval "$(/root/miniconda3/bin/conda shell.YOUR_SHELL_NAME hook)"
+   58  eval "$(/root/miniconda3/bin/conda shell.conda hook)"
+   59  eval "$(/root/miniconda3/bin/conda shell.conda3 hook)"
+   60  eval "$(/root/miniconda3/bin/conda shell.bash hook)"
+   61  conda init
+   62  conda --version
+   63  history
+   64  ls
+   65  mkdir docs
+   66  history >> docs/history.txt
+   67  nano docs/history.txt
+   68  clear
+   69  deactivate
+   70  conda deactivate
+   71  su user1
+   72  ls
+   73  conda
+   74  cd ~
+   75  ls
+   76  cd dc_worskhop
+   77  cd dc_workshop
+   78  ls
+   79  cd data
+   80  ls
+   81  cd untrimmed_fastq
+   82  ls
+   83  clear
+   84  ls
+   85  gunzip SRR2584863_1.fastq.gz
+   86  head -n 4 SRR2584863_1.fastq
+   87  cd /root/dc_workshop/data/untrimmed_fastq/fastqc_untrimmed_reads
+   88  ls
+   89  explorer.exe
+   90  /mnt/c/Windows/explorer.exe .
+   91  /explorer.exe .
+   92  cd /root/dc_workshop/data/untrimmed_fastq/fastqc_untrimmed_reads
+   93  ls
+   94  explorer.exe .
+   95  sudo chmod +x explorer.exe
+   96  ls
+   97  cd ..
+   98  ls
+   99  cd Users
+  100  ls
+  101  cd MOHSIN LAPTOP
+  102  ls
+  103  cd 'MOHSIN LAPTOP'
+  104  ls
+  105  cd Desktop
+  106  ls
+  107  pwd
+  108  c/Users/MOHSIN LAPTOP/Desktop
+  109  pwd
+  110  cd ..
+  111  ls
+  112  cd Public
+  113  ls
+  114  cd Fastq_html_files
+  115  ls
+  116  pwd
+  117  /mnt/c/Users/Public/Fastq_html_files
+  118  explorer.exe
+  119  cd /
+  120  ls
+  121  cd mnt
+  122  ls
+  123  cd c
+  124  ls
+  125  cd Windows
+  126  ls
+  127  ls | grep explorer
+  128  explorer.exe
+  129  ls -l | grep explorer
+  130  ls -l 
+  131  pwd
+  132  explorer.exe
+  133  pwd
+  134  ls -l | grep explorer
+  135  chmod +x explorer.exe
+  136  sudo chmod +x explorer.exe
+  137  su root
+  138  cd ~
+  139  ls
+  140  cd bin
+  141  cd /
+  142  ls
+  143  cd bin
+  144  cd ..
+  145  cd bin
+  146  ls
+  147  ls | grep trimmomatic
+  148  ls | grep trim
+  149  ls
+  150  cd ~
+  151  cd /
+  152  ls
+  153  cd mnt
+  154  ls
+  155  cd c
+  156  ls
+  157  cd Users
+  158  ls
+  159  cd Public
+  160  ls
+  161  cd cd Test_Files
+  162  ls
+  163  cd Test_Files
+  164  ls
+  165  cd Fastq_html_files_trimmed
+  166  ls
+  167  pwd
+  168  ls
+  169  mkdir trim
+  170  ls
+  171  mkdir untrim
+  172  ls
+  173  rm ls
+  174  rm trim
+  175  rm -r trim
+  176  ls
+  177  rm -r untrim
+  178  ls
+  179  mkdir ../untrim
+  180  ls
+  181  mv *un.trim ../untrim
+  182  ls ../
+  183  mv *un.trim ../untrim/
+  184  mv *un.trim_fastqc.html ../untrim
+  185  ls ../untrim
+  186  cd ~
+  187  ls
+  188  cp dc_workshop /mnt/c/Users/Public
+  189  cp -r dc_workshop /mnt/c/Users/Public
+  190  explorer.exe .
+  191  whoami
+  192  df -h
+  193  cat /proc/cpuinfo
+  194  tree -L 1 
+  195  tmux
+  196  tmux list-sessions
+  197  tmux kill-session -t windows
+  198  apt search tmux
+  199  apt search BLAST
+  200  apt upgrade
+  201  jobs
+  202  jobs -l
+  203  ls
+  204  su root
+  205  ls
+  206  history
+  207  history >> commands.txt
